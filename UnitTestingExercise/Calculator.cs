@@ -5,8 +5,8 @@ namespace UnitTestingExercise
     {
         // Step 1: Add a reference to your UnitTestingExercise project:
 
-        // Right-click on the 'Dependencies' folder in your UnitTestingExercise.Tests project
-        // and add your reference to the UnitTestingExercise project
+        // --Right-click on the 'Dependencies' folder in your UnitTestingExercise.Tests project
+        // --and add your reference to the UnitTestingExercise project
 
 
 
@@ -24,7 +24,10 @@ namespace UnitTestingExercise
         // Step 4: 
         // Create a Subtract method that accepts 2 integers
         // Keep track of which number is getting passed as minuend and subtrahend
-
+        public int Sub(int num1, int num2)
+        {
+            return num2- num1;
+        }
 
         // Step 5: Navigate to the UnitTests.cs file and complete the SubtractTest unit test method
 
